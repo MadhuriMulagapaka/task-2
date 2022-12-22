@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    background: #e5e9eb;
+}
+
+.datetime{
+    color: rgb(229, 234, 221);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', sans-serif;
+    height: 250px;
+    width: 250px;
+    padding: 15px 10px; 
+    border: 3px solid #3077ead9;
+    border-radius: 50%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(255,255,255,0.1));
+    transition: 0.5s;
+    transition-property: background,box-shadow;
+     align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.datetime:hover{
+    background: #010d16;
+    box-shadow: 0 0 30px #2e94E3;
+
+}
+
+.time{
+    padding-top: 100px;
+    padding-left: 9px;
+    padding-right: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.time span:not(:last-child){
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 4px;
+
+}
+
+.time span:last-child{
+    background-color: #2b2c2d;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.click {
+    font-size: large;
+    margin-bottom: 40%;
+    display:flex;
+    border: 1px solid #3498db;
+    font-family: "montserrat";
+    cursor: pointer;
+    color: #3498db;
+
+
+}
+
+.click:hover{
+    color: #010d16;
+}
+
+
